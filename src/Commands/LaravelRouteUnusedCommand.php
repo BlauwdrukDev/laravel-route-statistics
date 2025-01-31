@@ -25,8 +25,8 @@ class LaravelRouteUnusedCommand extends RouteListCommand
         $this->routes = $this->getQuery()
             ->select([
                 'route',
-                DB::raw('max(date) as last_used'),
-                DB::raw('sum(counter) as total_counter'),
+                // DB::raw('max(date) as last_used'),
+                // DB::raw('sum(counter) as total_counter'),
             ])
             ->groupBy('route')
             ->get()
