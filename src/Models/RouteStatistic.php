@@ -6,7 +6,7 @@ use Bilfeldt\LaravelRouteStatistics\Jobs\CreateLog;
 use Bilfeldt\RequestLogger\Contracts\RequestLoggerInterface;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+//use Illuminate\Database\Eloquent\Model;
 use MongoDB\Laravel\Eloquent\Model as Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Http\Request;
